@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/i_vzw/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
 	vendor/lge/i_vzw/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
 	vendor/lge/i_vzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/lge/i_vzw/proprietary/bin/BCM4330B14.hcd:system/bin/BCM4330B14.hcd \
+	vendor/lge/i_vzw/proprietary/etc/firmware/BCM4330B14.hcd:system/etc/firmware/BCM4330B14.hcd \
 	vendor/lge/i_vzw/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	vendor/lge/i_vzw/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/lge/i_vzw/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
