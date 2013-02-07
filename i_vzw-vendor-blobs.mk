@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-	vendor/lge/i_vzw/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/lge/i_vzw/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
 
 # Misc services
