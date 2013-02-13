@@ -72,14 +72,12 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
+	vendor/lge/i_vzw/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
 	vendor/lge/i_vzw/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
 	vendor/lge/i_vzw/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/lge/i_vzw/proprietary/lib/libgpsone_bit_api.so:system/lib/libgpsone_bit_api.so \
 	vendor/lge/i_vzw/proprietary/lib/libgps.so:system/lib/libgps.so \
-	vendor/lge/i_vzw/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-	vendor/lge/i_vzw/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/lge/i_vzw/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-	vendor/lge/i_vzw/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/lge/i_vzw/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so
 
 
@@ -119,7 +117,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/i_vzw/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/lge/i_vzw/proprietary/bin/atd:system/bin/atd \
 	vendor/lge/i_vzw/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-	vendor/lge/i_vzw/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
 	vendor/lge/i_vzw/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
 	vendor/lge/i_vzw/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	vendor/lge/i_vzw/proprietary/bin/prapp:system/bin/prapp \
